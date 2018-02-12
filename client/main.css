@@ -1,0 +1,23 @@
+/* CSS declarations go here */
+body {
+  overflow:hidden;
+}
+
+::-webkit-scrollbar {
+display: none;
+}
+
+
+
+
+
+.parag {
+	margin-bottom:0;
+	margin-top:0;
+	padding:none;
+	font-size: 1em;
+	color:#4d4d4d;
+}
+
+
+

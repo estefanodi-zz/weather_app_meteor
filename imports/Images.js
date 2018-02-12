@@ -1,0 +1,26 @@
+export const Images = {
+
+	      "01d": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518296839/weather1/bestsun.png',
+         "01n": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518049426/night.png',
+         "02d": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518297212/weather1/sunandcloud.png',
+         "02n": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518296839/weather1/moonbehind.png',
+         "03d": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518296839/weather1/onecloud.png',
+         "03n": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518296839/weather1/onecloud.png',
+         "04d": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518296840/weather1/twoclouds.png',
+         "04n": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518296840/weather1/twoclouds.png',
+         "09n": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518049425/rain9.png',
+         "09d": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518297679/weather1/rain.png',
+         "10d": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518049425/rain_3.png',
+         "10n": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518134429/rainy-night-weather-symbol-stroke.png',
+         "11d": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518134817/storm-cloud.png',
+         "11n": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518049425/storm_2.png',
+         "13d": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518298629/weather1/snowflake.png',
+         "13n": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518298629/weather1/snowflake.png',
+         "50d": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518049425/fog.png',
+         "50n": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518049425/fog.png',
+        "wind": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518137890/wind-sign.png',
+         "hum": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518137915/water.png',
+      "search": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518092551/placeholder.png',
+      "change": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518217822/internet.png',
+    "location": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518217822/placeholder-filled-point.png'
+}

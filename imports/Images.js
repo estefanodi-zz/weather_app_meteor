@@ -18,9 +18,9 @@ export const Images = {
          "13n": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518298629/weather1/snowflake.png',
          "50d": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518049425/fog.png',
          "50n": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518049425/fog.png',
-        "wind": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518137890/wind-sign.png',
-         "hum": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518137915/water.png',
-      "search": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518092551/placeholder.png',
+        "wind": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1523802290/wind_1.png',
+         "hum": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1523802298/raindrop.png',
+      "search": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1523802231/placeholder_1.png',
       "change": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518217822/internet.png',
-    "location": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1518217822/placeholder-filled-point.png'
+    "location": 'http://res.cloudinary.com/estefanodi2009/image/upload/v1523801107/placeholder.png'
 }

@@ -1,6 +1,7 @@
 /* CSS declarations go here */
 body {
   overflow:hidden;
+  font-family: 'Prompt', sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -8,15 +9,27 @@ display: none;
 }
 
 
-
+.principal {
+     background-image: url("http://res.cloudinary.com/estefanodi2009/image/upload/v1523495195/Android_Mobile_10.png");
+    background-repeat: no-repeat;
+      background-size: 100% 100%;
+            height   : 100vh;
+            display  : grid;
+   grid-template-rows: 45% 55%; 
+    }
 
 
 .parag {
 	margin-bottom:0;
 	margin-top:0;
 	padding:none;
-	font-size: 1em;
-	color:#4d4d4d;
+	font-size: 1.3em;
+	color:white;
+}
+
+.display{
+	display : grid;
+	grid-template-rows : 3fr 2fr 3fr 2fr 3fr;
 }
 
 

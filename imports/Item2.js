@@ -6,7 +6,8 @@ export default class Item2 extends React.Component{
 render(){
 
      let img = {
-             width:'35%'
+     	     marginTop:'10%',
+             width:'40%'
      }
      	
      let hour = {
@@ -16,12 +17,12 @@ render(){
 		          margin : '3% 1%',
 		           width : '100px',
 		            flex : '0 0 auto',
-		         padding : '0.4em 0',
 		           float : 'left',
 		           color : 'white',
-		      transition : 'background-color 2s ease-in-out',
-		 backgroundColor : `${this.props.color}`,
-		          border : '1px solid grey'
+		           heigth: '100%',
+		 backgroundColor : 'transparent',
+		   alignSelf     : 'center'
+
 }
 
 
@@ -37,8 +38,7 @@ render(){
 	     	
                  <p className='parag'>{dt_txt}</p>
                  <img style={img} src={Images[icon]}/>
-                 <p className='parag'>Min: {Math.round(temp_min)}</p>
-                 <p className='parag'>Max: {Math.round(temp_max)}</p>
+                 <p className='parag'>{Math.round(temp_max)} &#186; c</p>
 
 			</div>
 

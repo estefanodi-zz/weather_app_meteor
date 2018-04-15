@@ -31,7 +31,7 @@ export default class Mod extends React.Component{
         let changeCity = {
              
               WebkitMaskBoxImage : `url(${Images['change']})`,
-                 backgroundColor : '#737373',
+                 backgroundColor : 'white',
                           height : '32px',
                            width : '32px',
                   backgroundSize : '70% 70%',

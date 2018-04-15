@@ -27,7 +27,8 @@ export default class Display extends React.Component{
                   alignItems : 'center',
      	              fontSize : '3em',
      	             textAlign : 'center',
-                       color : '#4d4d4d'
+                       color : 'white',
+                       
 
           }
 
@@ -35,7 +36,8 @@ export default class Display extends React.Component{
      	              fontSize : '3.5em',
                    textAlign : 'right',
                 paddingRight : '14%',
-                       color : '#4d4d4d'
+                       color : 'white',
+                       
          }
 
          let img = {
@@ -43,30 +45,24 @@ export default class Display extends React.Component{
       	        borderRadius : '50%'
          }
 
-
-          let circle = {
+         let circle = {
                 	   position : 'absolute',
                 	     height : '180px',
                 	      width : '180px',
-              backgroundColor : `${this.props.color}`,
               backgroundImage : `url(${Images[this.props.today.icon]})`,
-                 borderRadius : '50%',
                     marginTop : '14%',
                    marginLeft : '3%',
-                       border : '7px solid #b3b3b3',
-                  borderRight : 'none',
-               backgroundSize : '70% 70%',
+               backgroundSize : '60% 60%',
              backgroundRepeat : 'no-repeat',
            backgroundPosition : '48% 45%',
-                   transition : 'background-color 2s ease-in-out',
-            }
+         }
+          
 
          let hum = {
                 paddingRight : '5%',
                     fontSize : '2em',
                    textAlign : 'right',
-                  paddingTop : '3%',
-                       color : '#4d4d4d'
+                       color : 'white'
          }
          
          let img2 = {
@@ -75,7 +71,7 @@ export default class Display extends React.Component{
                        width : '30px',
                        float : 'right',
           WebkitMaskBoxImage : `url(${Images["hum"]})`,
-             backgroundColor : `${this.props.color}`,
+             backgroundColor : 'white',
             backgroundRepeat : 'no-repeat',
                   transition : 'background-color 2s ease-in-out'
           }
@@ -85,7 +81,7 @@ export default class Display extends React.Component{
                      width : '40px',
                      float : 'right',
         WebkitMaskBoxImage : `url(${Images["wind"]})`,
-           backgroundColor : `${this.props.color}`,
+           backgroundColor :'white',
           backgroundRepeat : 'no-repeat',
                 transition : 'background-color 2s ease-in-out'
          }
@@ -94,21 +90,20 @@ export default class Display extends React.Component{
              paddingRight : '5%',
                  fontSize : '2em',
                 textAlign : 'right',
-                    color : '#4d4d4d'
+                    color : 'white',
+                   
            
          }
 
         let bottom = {
-                fontSize : '2.5em',
+                fontSize : '2.8em',
                textAlign : 'center',
-              paddingTop : '4% ',
-           paddingBottom : '0',
-                   color : '#4d4d4d'
+                   color : 'white'
         }
 
         let backButton = {
             WebkitMaskBoxImage : `url(${Images['search']})`,
-               backgroundColor : '#737373',
+               backgroundColor : 'white',
                         height : '35px',
                          width : '35px',
                 backgroundSize : '70% 70%',
@@ -119,9 +114,7 @@ export default class Display extends React.Component{
       
    	  return(
          
-              <div style={{backgroundColor:'rgba(192,192,192,0.3',
-                            borderTop : '0.5px solid grey'
-                          }}>
+              <div className = 'display'>
                   
                  <div style={circle}></div>
 
@@ -134,9 +127,9 @@ export default class Display extends React.Component{
                               <div>{this.props.today.city}</div>
 
                                <Mod  color = {this.props.color}
-                               week = {this.props.week}
-                       yourLocation = {this.props.yourLocation}
-                              hours = {this.props.hours}
+		                              week = {this.props.week}
+		                      yourLocation = {this.props.yourLocation}
+		                             hours = {this.props.hours}
                           
                                /> 
                  </div>
@@ -153,7 +146,7 @@ export default class Display extends React.Component{
                  <div style={wind}>
                     
           	                   <div style={img3}></div>
-                               <div>{Math.round(this.props.today.wind) + 'mph'}</div>
+                               <div>{Math.round(this.props.today.wind) + ' mph'}</div>
                  </div>
 
                  <div style={bottom}>

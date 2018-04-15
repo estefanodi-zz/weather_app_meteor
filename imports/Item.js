@@ -16,13 +16,10 @@ export default class Item extends React.Component{
           gridTemplateColumns : '2fr 2fr 2fr 2fr',
                     textAlign : 'center',
                    alignItems : 'center',
-                 marginBottom : '2%',
-                    borderTop : '1px solid grey',
-                 borderBottom : '1px solid grey',
+                 marginBottom : '3%',
                         width : '100%',
                         color : 'white',
-                   transition : 'background-color 2s ease-in-out',
-              backgroundColor : `${this.props.color}`
+                   
     }
 
      let day = new Date(this.props.dt * 1000)

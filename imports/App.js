@@ -1,5 +1,5 @@
 import React        from 'react'
-import Header       from './Header'
+//import Header       from './Header'
 import Display      from './Display'
 import List         from './List'
 import axios        from 'axios'
@@ -13,13 +13,12 @@ export default class App extends React.Component{
       this.hours=this.hours.bind(this)
       this.yourLocation=this.yourLocation.bind(this)
       this.week=this.week.bind(this)
-      //this.change=this.change.bind(this)
+      
      
     	this.state={
-        days : [],
-       today : {},
-       color : 'rgb(10, 210, 224)',
-       hours : []
+	        days : [],
+	       today : {},
+	       hours : []
       
     	}
     }
@@ -93,61 +92,56 @@ hours(latitude,longitude){
 
 	render(){
 
-    let navbarra={
-       backgroundColor : `${this.state.color}`,
-            transition : 'background-color 2s ease-in-out',
-               padding : '1% 3%'
-    }
-
-    let principal={
-
-               display : 'grid',
-      gridTemplateRows : '1fr 10fr 15fr',
-                height : '100vh',
-       backgroundColor : 'rgba(192,192,192,0.3'
-    }
-   
     let week = {
+
                display : 'grid',
-      gridTemplateRows : '1fr 3fr'
+      gridTemplateRows : '35% 55% 10%'
     }
 
 		return(
       
-      
-           <div style={principal}>
+            
+           <div className='principal'>
 
-                   <div style={navbarra}>
-                       <Header/> 
-                   </div>
+                  
 
-                   <div>
+                   
 			                 <Display 
-                            
+                            className  = 'display'
                             today  = {this.state.today}
                              week  = {this.week}
                      yourLocation  = {this.yourLocation}
                             hours  = {this.hours}
                             color  = {this.state.color}   
                        />
-                  </div>      
-                
+                        
+                 
+
                   <div style={week}>
 
                        <List2 
                            hours  = {this.state.hours}
                            color  = {this.state.color}
+                           style  =  {{backgroundColor:'grey'}}
                        />
 
                        <List 
                             days  = {this.state.days}
                            color  = {this.state.color}
+                           style  =  {{backgroundColor:'green'}}
                        /> 
+
+                       <div style = {{
+                       	          backgroundColor : 'rgba(192,192,192,0.3',
+                                  borderTop : '0.5px solid white'
+                       }}></div>
+                 
                  </div>
-               
 			     </div>
      
 			   )
 	
 	}
 }
+
+

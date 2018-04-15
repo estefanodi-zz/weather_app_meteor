@@ -10,12 +10,14 @@ export default class List2 extends React.Component{
 
 	        	<div 
 	   	            style = {{
-	   	            	   backgroundColor :'rgba(192,192,192,0.3',
+	   	            	   backgroundColor : 'rgba(192,192,192,0.3',
                                    display : 'flex',  
                                   flexWrap : 'nowrap',
-                                 overflowX : 'auto',
-                                 borderTop : '0.5px solid grey'
-                              //borderBottom : '0.5px solid grey'
+                                 overflowX : 'scroll',
+                                 borderTop : '0.5px solid white',
+                              borderBottom : '0.5px solid white'
+                              
+                              
                             }}>
 	   		{
 
